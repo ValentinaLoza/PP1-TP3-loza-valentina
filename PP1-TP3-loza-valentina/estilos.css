@@ -1,0 +1,320 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+body {
+    background-color: rgb(171, 204, 241);
+}
+
+#titulo {
+    
+    width:100%;
+    position: fixed;
+    border-bottom: 3px solid blue;
+    background-color: rgb(171, 204, 241);
+
+}
+
+#titulo-general1 {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+
+}
+
+#titulo-general {
+
+    padding: 5px;
+}
+
+#logo1 {
+     width:100%;
+    display: flex;
+    justify-items: left;
+    margin-left: 5%;
+    margin-top: 1%;
+
+}
+
+#logo {
+    height: 50px;
+    width: auto;
+}
+
+.cuerpo {
+    display: flex;
+    height: 1px;
+    width: 1px;
+
+
+}
+
+
+
+#boton1 {
+    transition: all 0.5s ease;
+    height: 80px;
+    width: 245px;
+    margin: 100px;
+    margin-top:200px;
+    text-align: center;
+    font-size: x-large;
+    color: azure;
+    background-color: rgb(17, 27, 85);
+    cursor: pointer;
+    border-radius: 15px;
+    font-family: Georgia, serif;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+#boton1:hover {
+    background-color: rgb(118, 88, 226);
+    height: 160px;
+    width: 245px;
+    text-align: center;
+    padding: -5px;
+
+
+
+}
+
+.info-oculta {
+    text-align: center;
+    font-family: segoe;
+    color: rgb(158, 165, 172);
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 100ms ease;
+    max-height: 0.4s ease;
+}
+
+#boton1:hover .info-oculta {
+    text-align: center;
+    opacity: 1;
+    max-height: 500px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#boton2 {
+    transition: all 0.5s ease;
+    height: 80px;
+    width: 245px;
+    margin: 100px;
+    margin-top:200px;
+    text-align: center;
+    font-size: x-large;
+    color: azure;
+    background-color: rgb(17, 27, 85);
+    cursor: pointer;
+    border-radius: 15px;
+    font-family: Georgia, serif;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#boton2:hover {
+    background-color: rgb(118, 88, 226);
+    height: 160px;
+    width: 245px;
+    text-align: center;
+
+
+}
+
+.info-oculta {
+    text-align: center;
+    font-family: segoe;
+    color: rgb(158, 165, 172);
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 100ms ease;
+    max-height: 0.4s ease;
+}
+
+#boton2:hover .info-oculta {
+    text-align: center;
+    opacity: 1;
+    max-height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+#boton3 {
+    transition: all 0.5s ease;
+    height: 80px;
+    width: 245px;
+    margin: 100px;
+    margin-top:200px;
+    text-align: center;
+    font-size: x-large;
+    color: azure;
+    background-color: rgb(17, 27, 85);
+    cursor: pointer;
+    border-radius: 15px;
+    font-family: Georgia, serif;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#boton3:hover {
+    background-color: rgb(118, 88, 226);
+    height: 160px;
+    width: 245px;
+    text-align: center;
+
+
+}
+
+.info-oculta {
+    text-align: center;
+    font-family: segoe;
+    color: rgb(158, 165, 172);
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 100ms ease;
+    max-height: 0.4s ease;
+}
+
+#boton3:hover .info-oculta {
+    text-align: center;
+    opacity: 1;
+    max-height: 500px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.parrafo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+
+
+}
+
+#parrafo1 {
+    height: 500px;
+    width: 700px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-size: 26px;
+    padding: 15px;
+}
+
+#parrafo2 {
+    height: 350px;
+    width: 700px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-size: 26px;
+    padding: 15px;
+}
+
+.banner1 {
+    display: flex;
+
+}
+
+#banner {
+    width: 1340px;
+    margin-top: 500px;
+}
+
+#animales {
+    margin: auto;
+    margin-top: 200px;
+    height: 160px;
+    width: 245px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+#animales:hover {
+    text-align: center;
+    height: 160px;
+    width: 900px;
+
+
+}
+
+#animales:hover .info-oculta {
+    color: black;
+    text-align: center;
+    opacity: 1;
+    max-height: 500px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+#traduccion {
+    margin: auto;
+    margin-top: 400px;
+    height: 160px;
+    width: 245px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+#traduccion:hover {
+    text-align: center;
+    height: 160px;
+    width: 900px;
+
+
+}
+
+#traduccion:hover .info-oculta {
+    color: black;
+    text-align: center;
+    opacity: 1;
+    max-height: 500px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+#info_parrafo2 {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1100px;
+    text-align: center;
+}
+#parrafo3 {
+    height: 200px;
+    width: 700px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-size: 26px;
+    padding: 15px;
+}
+
+#logo_oculto{
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+}
